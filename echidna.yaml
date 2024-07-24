@@ -1,0 +1,5 @@
+testMode: property
+maxCallDepth: 50
+corpusDir: echidna/corpus
+remappings:
+  - forge-std/=lib/forge-std/src/

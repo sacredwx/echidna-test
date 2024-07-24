@@ -27,6 +27,12 @@ $ forge build
 $ forge test
 ```
 
+### Echidna Test
+
+```shell
+$ echidna ./test/SimpleToken.t.sol --contract SimpleTokenTest --solc-args="--allow-paths .,lib/forge-std/src" --config echidna.yaml
+```
+
 ### Format
 
 ```shell
